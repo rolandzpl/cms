@@ -12,7 +12,9 @@ const PageList: FC = () => {
                 </li>))}
             </ul>
         </div>
-        <Outlet />
+        <div>
+            <Outlet />
+        </div>
     </>);
 }
 
